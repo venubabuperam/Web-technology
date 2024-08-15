@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "revature-ml-training"
+version = "0.1.0"
+description = "Training example programs and projects"
+authors = ["Sriram Mandiramoorthy <sriram@atadew.ca>"]
+readme = "README.md"
+packages = [{include = "revature_ml_training"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-aiplatform = "^1.62.0"
+fastapi = "^0.112.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
